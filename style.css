@@ -1,0 +1,510 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow: hidden; */
+}
+.container {
+  width: 100%;
+}
+
+.inner {
+  background-image: url(images/background\ logo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 0;
+}
+ul {
+  display: flex;
+  gap: 2.5rem;
+}
+
+li {
+  color: #fff;
+  font-family: montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+header button {
+  color: #fff;
+  font-family: montserrat;
+  font-size: 16px;
+  font-style: normal;
+  border-radius: 50px;
+  background: #1bc768;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  margin-top: 5rem;
+}
+.herotext {
+  width: 50%;
+}
+.herotext h2 {
+  color: #fff;
+  font-family: montserrat;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+.herotext p {
+  color: #fff;
+  font-family: montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 2rem 0;
+  width: 95%;
+}
+.herobtn {
+  margin-bottom: 2rem;
+}
+.herobtn button {
+  border-radius: 50px 0 0 50px;
+  color: #fff;
+
+  font-family: montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  padding: 10px 35px;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  cursor: pointer;
+}
+.herobtn button:hover {
+  background: #fff;
+  color: #043caa;
+}
+
+.heroinput input {
+  width: 70%;
+  padding: 0.5rem;
+  border-radius: 50px 0 0 50px;
+  border: 2px solid #fff;
+}
+.heroinput button {
+  width: 20%;
+  padding: 0.5rem;
+  cursor: pointer;
+  background: #1bc768;
+  color: #fff;
+  font-family: montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  border-radius: 0 50px 50px 0;
+}
+
+.heroimage {
+  margin: top 5rem;
+  color: #043caa;
+  font-family: montserrat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heroimage img {
+  margin-top: 4rem;
+}
+
+.innercontainer {
+  width: 80%;
+  margin: auto;
+}
+
+.affiliations {
+  width: 50%;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.lines {
+  display: flex;
+  justify-content: center;
+}
+
+.line1 {
+  width: 45px;
+  height: 5px;
+  background-color: #043caa;
+}
+.line2 {
+  width: 45px;
+  height: 5px;
+  background-color: #1bc768;
+}
+
+.affiliations h2 {
+  color: #043caa;
+  font-family: montserat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.sponsors {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
+
+.benefits {
+  margin-bottom: 3rem;
+}
+.benefit h2 {
+  color: #043caa;
+  font-family: montserat;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-align: center;
+}
+
+.medicine {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flextext {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+.medicinetext h5 {
+  color: #043caa;
+  font-family: momtserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;
+  width: 60%;
+  padding-bottom: 1rem;
+}
+.bullettext p {
+  color: #333;
+
+  font-family: montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 0.5rem;
+}
+.medicinetext button {
+  color: #1bc768;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 50px;
+  border: 1px solid #1bc768;
+  padding: 0.5rem 1rem;
+  background: none;
+  cursor: pointer;
+}
+
+.medicine2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flextext2 {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+.medicinetext2 h5 {
+  color: #043caa;
+  font-family: momtserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;
+  width: 60%;
+  padding-bottom: 1rem;
+}
+
+.bullettext2 p {
+  color: #333;
+
+  font-family: montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 0.5rem;
+}
+.medicinetext2 button {
+  color: #1bc768;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 50px;
+  border: 1px solid #1bc768;
+  padding: 0.5rem 1rem;
+  background: none;
+  cursor: pointer;
+}
+.medicine3 {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+
+.flextext3 {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+.medicinetext3 h5 {
+  color: #043caa;
+  font-family: momtserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 40px;
+  width: 60%;
+  padding-bottom: 1rem;
+}
+.bullettext3 p {
+  color: #333;
+
+  font-family: montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-left: 0.5rem;
+}
+.medicinetext3 button {
+  color: #1bc768;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border-radius: 50px;
+  border: 1px solid #1bc768;
+  padding: 0.5rem 1rem;
+  background: none;
+  cursor: pointer;
+}
+
+.clients {
+  display: flex;
+  justify-content: space-between;
+}
+
+.clienttext {
+  width: 30%;
+  margin: auto;
+}
+.clienttext h3 {
+  color: #000;
+
+  font-family: montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-align: center;
+}
+.clienttext p {
+  color: #7a7a7a;
+
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  padding: 1.5rem 0;
+}
+
+.clienttext h5 {
+  color: #043caa;
+
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 180%;
+  padding-bottom: 2rem;
+}
+.footer {
+  background: #043caa;
+  margin-top: 6rem;
+}
+.footercontainer {
+  width: 90%;
+  margin: auto;
+  padding: 3rem 0;
+}
+.newletter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.new1 {
+  width: 40%;
+}
+.new1 h4 {
+  color: #fff;
+  font-family: montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  padding-bottom: 1rem;
+}
+.new1 p {
+  color: #fff;
+
+  font-family: montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.new2 {
+  width: 50%;
+}
+
+.new2 input {
+  width: 50%;
+  padding: 0.5rem;
+  border-radius: 50px 0 0 50px;
+  border: 2px solid #fff;
+  margin-top: 1rem;
+}
+.new2 button {
+  width: 20%;
+  padding: 0.5rem .9rem;
+  cursor: pointer;
+  background: #1bc768;
+  color: #fff;
+  font-family: montserrat;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: none;
+  border-radius: 0 50px 50px 0;
+  margin-left: -0.3rem;
+}
+.new2 button img{
+    width: 18%;
+    
+    
+}
+
+.new2 label {
+  color: #fff;
+  font-family: Avenir;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7rem;
+}
+
+.footerexpress {
+  width: 30%;
+}
+.footertext {
+  display: flex;
+  gap: 3rem;
+  width: 60%;
+}
+
+.footerexpress p {
+  color: #fff;
+
+  font-family: montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 2rem;
+  width: 75%;
+}
+
+.text h5 {
+  color: #fff;
+
+  font-family: montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 1.5rem;
+}
+.text p {
+  color: #fff;
+
+  font-family: montserrat;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 1.5rem;
+}
+.copyright{
+    color: #FFF;
+    font-family: monserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-top: 5rem;  
+}
